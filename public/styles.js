@@ -40,7 +40,7 @@ module.exports = [[module.i, "/* based on angular-toastr css https://github.com/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/*------------------- Global -----------------------------*/\n/* Breakpoints: xs: 0,  sm: 576px; md: 768px; lg: 992px; xl: 1200px; */\n#indexbody {\n  font-size: 13px;\n  font-family: Arial, Helvetica, sans-serif;\n  background-color: #f4f4f4;\n  color: black;\n}\n/* TOASTR BUGFIX */\n.toast-custom-one {\n  top: 25%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n}\n#toast-container > div {\n  opacity: 1;\n}\n.toast {\n  font-size: initial !important;\n  border: initial !important;\n  -webkit-backdrop-filter: blur(0) !important;\n          backdrop-filter: blur(0) !important;\n}\n.toast-success {\n  background-color: #51A351 !important;\n}\n.toast-error {\n  background-color: #BD362F !important;\n}\n.toast-info {\n  background-color: #2F96B4 !important;\n}\n.toast-warning {\n  background-color: #F89406 !important;\n}\n/*# sourceMappingURL=styles.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuc2NzcyIsInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDJEQUFBO0FBQ0Esc0VBQUE7QUF3Q0E7RUFDSSxlQUFlO0VBQ2YseUNBQXlDO0VBQ3pDLHlCQWpDWTtFQWtDWixZQUFZO0FDdENoQjtBRHlDQSxrQkFBQTtBQUVBO0VBQ0ksUUFBUTtFQUNSLFNBQVM7RUFDVCx3Q0FBZ0M7VUFDakMsZ0NBQUE7QUN2Q0g7QUFFQTtFRDBDQyxVQUFBO0FDeENEO0FBRUE7RUQwQ0ksNkJBQTBCO0VBQzFCLDBCQUF5QjtFQUM1QiwyQ0FBQTtVQ3hDUyxtQ0FBbUM7QUQwQzdDO0FDdkNBO0VBQ0Usb0NBQW9DO0FEMEN0QztBQ3ZDQTtFQUNFLG9DQUFvQztBRDBDdEM7QUN2Q0E7RUFDRSxvQ0FBb0M7QUQwQ3RDO0FDdkNBO0VBQ0Usb0NBQW9DO0FBQ3RDO0FBQ0EscUNBQXFDIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIn0= */", '', '']]
+module.exports = [[module.i, "/*------------------- Global -----------------------------*/\n/* Breakpoints: xs: 0,  sm: 576px; md: 768px; lg: 992px; xl: 1200px; */\n/* TOASTR BUGFIX */\n.toast-custom-one {\n  top: 25%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n}\n#toast-container > div {\n  opacity: 1;\n}\n.toast {\n  font-size: initial !important;\n  border: initial !important;\n  -webkit-backdrop-filter: blur(0) !important;\n          backdrop-filter: blur(0) !important;\n}\n.toast-success {\n  background-color: #51A351 !important;\n}\n.toast-error {\n  background-color: #BD362F !important;\n}\n.toast-info {\n  background-color: #2F96B4 !important;\n}\n.toast-warning {\n  background-color: #F89406 !important;\n}\n#index_body {\n  background-color: #FFF6BB;\n}\n#bg {\n  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 100%, 0 0);\n          clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 100%, 0 0);\n  z-index: -1;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #00ddff;\n}\n@media (min-width: 768px) {\n  #bg {\n    -webkit-clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);\n            clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);\n  }\n}\n/*# sourceMappingURL=styles.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuc2NzcyIsInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDJEQUFBO0FBQ0Esc0VBQUE7QUFFQSxrQkFBQTtBQUVBO0VBQ0ksUUFBUTtFQUNSLFNBQVM7RUFDVCx3Q0FBZ0M7VUFDakMsZ0NBQUE7QUNESDtBQUVBO0VER0MsVUFBQTtBQ0REO0FBRUE7RURHSSw2QkFBMEI7RUFDMUIsMEJBQXlCO0VBQzVCLDJDQUFBO1VDRFMsbUNBQW1DO0FERzdDO0FDQUE7RUFDRSxvQ0FBb0M7QURHdEM7QUNBQTtFQUNFLG9DQUFvQztBREd0QztBQ0FBO0VBQ0Usb0NBQW9DO0FER3RDO0FDQUE7RUFDRSxvQ0FBb0M7QUR5Q3RDO0FDdENBO0VBQ0UseUJBQXlCO0FEeUMzQjtBQ3RDQTtFRHlDSSxpRUFBa0I7VUFDWCx5REFBSTtFQUNYLFdBQVE7RUFDUixrQkFyQ1E7RUEwQ1gsV0FBQTtFQzNDQyxZQUFZO0VEdUJWLHlCQUF3QjtBQ3JCNUI7QUFFQTtFQUNFO0lBQ0UseURBQXlEO1lBQ2pELGlEQUFpRDtFQUMzRDtBQUNGO0FBQ0EscUNBQXFDIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIn0= */", '', '']]
 
 /***/ }),
 
@@ -673,20 +673,20 @@ if(false) {}
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!********************************************************************************************************************************************************************!*\
   !*** multi ./src/styles.css ./node_modules/bootstrap/dist/css/bootstrap.css ./node_modules/font-awesome/css/font-awesome.css ./node_modules/ngx-toastr/toastr.css ***!
   \********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\TheCode\meanAppRaw\kimsapp\src\styles.css */"./src/styles.css");
-__webpack_require__(/*! C:\TheCode\meanAppRaw\kimsapp\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-__webpack_require__(/*! C:\TheCode\meanAppRaw\kimsapp\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
-module.exports = __webpack_require__(/*! C:\TheCode\meanAppRaw\kimsapp\node_modules\ngx-toastr\toastr.css */"./node_modules/ngx-toastr/toastr.css");
+__webpack_require__(/*! C:\TheCode\StatiCV\kimsapp\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\TheCode\StatiCV\kimsapp\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+__webpack_require__(/*! C:\TheCode\StatiCV\kimsapp\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+module.exports = __webpack_require__(/*! C:\TheCode\StatiCV\kimsapp\node_modules\ngx-toastr\toastr.css */"./node_modules/ngx-toastr/toastr.css");
 
 
 /***/ })
 
-},[[4,"runtime"]]]);
+},[[3,"runtime"]]]);
 //# sourceMappingURL=styles.js.map
