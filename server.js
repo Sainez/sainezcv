@@ -4,8 +4,6 @@ var path = require('path');
 var app = express();
 ;
 
-
-
 //Static files
 app.use(express.static(path.join(__dirname, '/public')));
 
@@ -17,7 +15,7 @@ app.get('/*', function(req, res){
 
 //listen to port
 app.listen(process.env.PORT || 3012, () =>{
-    console.log('Running Port 3012 Babe....');
+    console.log('Running Port 3012');
 });
 
 
